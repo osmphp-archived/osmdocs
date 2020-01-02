@@ -7,7 +7,7 @@ After [Installing OsmDocs](https://docs.osmdocs.com/downloading-and-installing-o
 * [Directory Structure](https://docs.osmdocs.com/creating-and-editing-books/directory-structure.html) 
 * [Formatting](https://docs.osmdocs.com/creating-and-editing-books/formatting.html)
 
-[Configure the tools]((https://docs.osmdocs.com/preparing-your-computer.html)) to edit the book on your server seamlessly. 
+[Configure the tools](https://docs.osmdocs.com/preparing-your-computer.html) to edit the book on your server seamlessly. 
 
 Consider putting [the book directory under Git](https://docs.osmdocs.com/using-version-control.html).
 
