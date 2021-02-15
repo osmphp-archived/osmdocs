@@ -11,13 +11,11 @@
     ],
     "require": {
         "php": "^7.2",
-        "osmphp/framework": "^3.1",
-        "osmphp/docs": "^3.0",
-        "osmscripts/osm": "^1.0"
+        "osmphp/framework": "dev-old_v3",
+        "osmphp/docs": "dev-old_v3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6",
-        "osmscripts/osm-creator": "^1.0"
+        "phpunit/phpunit": "^6"
     },
     "autoload": {
         "psr-4": {
@@ -50,12 +48,10 @@
             "@php -r \"file_exists('.env.testing') || copy('temp/.env.testing', '.env.testing');\""
         ],
         "post-install-cmd": [
-            "@php fresh",
-            "@php run composer-hooks post-update"
+            "@php fresh"
         ],
         "post-update-cmd": [
-            "@php fresh",
-            "@php run composer-hooks post-update"
+            "@php fresh"
         ]
     }
 }
