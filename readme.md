@@ -2,7 +2,11 @@ A PHP project for hosting a book - a directory of Markdown files and images - as
 
 ## Installation
 
-    composer create-project osmphp/osmdocs {project_name} --ignore-platform-reqs
+    composer create-project --ignore-platform-reqs osmphp/osmdocs {project_name} 
+    cd {project_name}
+    php config:npm
+    npm install
+    npm run webpack
 
 ## License
 
